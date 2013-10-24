@@ -39,5 +39,40 @@
 }
 
 .icon-gray {
-	color: dimgray;
+	color: #B0B0B0;
+}
+
+.post-meta {
+	margin-top: 12px;
+	float: right;
+}
+
+/* Every post, on every page, gets this style on its <article> tag */
+.post {
+    position: relative;
+    width:80%;
+    max-width: 700px;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+    border-bottom: #EBF2F6 1px solid;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+/* Add a little circle in the middle of the border-bottom on our .post */
+.post:after {
+    display: block;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: #E7EEF2 1px solid;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    background: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    box-shadow: #fff 0 0 0 5px;
 }
