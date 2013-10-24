@@ -64,7 +64,7 @@
     height: 7px;
     border: #E7EEF2 1px solid;
     position: absolute;
-    bottom: -5px;
+    bottom: -4px;
     left: 50%;
     margin-left: -5px;
     background: #fff;
@@ -72,6 +72,11 @@
     -moz-border-radius: 100%;
     border-radius: 100%;
     box-shadow: #fff 0 0 0 5px;
+}
+
+.post-title {
+	line-height: 1.2em;
+	margin-bottom: 30px;
 }
 
 /* /POST STYLING */
