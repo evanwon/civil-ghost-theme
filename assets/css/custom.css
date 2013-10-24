@@ -37,3 +37,7 @@
 	/* Give the content a little more separation from the sidebar */
 	margin-left: 10px;
 }
+
+.icon-gray {
+	color: dimgray;
+}
