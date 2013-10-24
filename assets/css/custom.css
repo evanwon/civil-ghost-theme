@@ -32,3 +32,8 @@
 		max-width: 500px;
 	}
 }
+
+.content-main {
+	/* Give the content a little more separation from the sidebar */
+	margin-left: 10px;
+}
