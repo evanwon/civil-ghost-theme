@@ -45,6 +45,16 @@
 	color: #B0B0B0;
 }
 
+.post-meta ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 5px 0 0 0;
+}
+
+.post-meta ul li {
+
+}
+
 .post {
     position: relative;
     width:100%;
