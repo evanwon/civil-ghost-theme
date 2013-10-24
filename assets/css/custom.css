@@ -1,3 +1,4 @@
+/* IMAGE STYLING */
 .circular {
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -11,6 +12,8 @@
 	margin: 0 auto;
 }
 
+/* /IMAGE STYLING */
+
 .sidebar {
 
 }
@@ -20,6 +23,7 @@
 	font-size: 18px;
 }
 
+/* Alternate styling for sidebar for vertical layout */
 @media (max-width: 992px){
 	.bio {
 		text-align:center;
@@ -38,6 +42,8 @@
 	margin-left: 10px;
 }
 
+/* POST STYLING */
+
 .icon-gray {
 	color: #B0B0B0;
 }
@@ -47,9 +53,6 @@
 	float: right;
 }
 
-/* POST STYLING */
-
-/* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
     width:80%;
