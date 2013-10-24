@@ -37,11 +37,6 @@
 	}
 }
 
-.content-main {
-	/* Give the content a little more separation from the sidebar */
-	margin-left: 10px;
-}
-
 /* POST STYLING */
 
 .post-meta {
@@ -52,7 +47,7 @@
 
 .post {
     position: relative;
-    width:80%;
+    width:100%;
     max-width: 700px;
     margin: 4rem auto;
     padding-bottom: 4rem;
