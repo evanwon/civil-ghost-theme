@@ -89,4 +89,15 @@
 	margin-bottom: 30px;
 }
 
+blockquote {
+	font-style: italic;
+	margin: 30px 0px;
+}
+
+pre {
+	margin: 30px 0px;
+}
+
+
+
 /* /POST STYLING */
