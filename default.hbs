@@ -50,20 +50,26 @@
             <div class="col-md-8 content-main">
                 {{! Everything else gets inserted here }}
                 {{{body}}}
-                
-                     <footer class="site-footer">
-                        <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Subscribe!</span></a>
-                        <div class="inner">
-                             <section class="copyright">Copyright &copy; 2013 <a href="/">{{@blog.title}}</a></section>
-                             <section class="poweredby">Powered by <a class="icon-ghost" href="http://ghost.org">Ghost</a></section>
-                        </div>
-                    </footer>
         
             </div>
             <!--/Main content-->
             
             <div class="col-md-1"></div>
         </div>
+        
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-md-12">
+                <footer class="site-footer">
+                    <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Subscribe!</span></a>
+                    <div class="inner">
+                         <section class="copyright">Copyright &copy; 2013 <a href="/">{{@blog.title}}</a></section>
+                         <section class="poweredby">Powered by <a class="icon-ghost" href="http://ghost.org">Ghost</a></section>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <!--/Footer-->
     
     </div>
     <!--/Container-->
