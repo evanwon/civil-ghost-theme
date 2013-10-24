@@ -7,7 +7,7 @@
 .img-responsive-centered {
 	display: block;
 	height: auto;
-	max-width: 100%;
+	max-width: 90%;
 	margin: 0 auto;
 }
 
@@ -47,6 +47,8 @@
 	float: right;
 }
 
+/* POST STYLING */
+
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
@@ -76,3 +78,5 @@
     border-radius: 100%;
     box-shadow: #fff 0 0 0 5px;
 }
+
+/* /POST STYLING */
