@@ -44,13 +44,10 @@
 
 /* POST STYLING */
 
-.icon-gray {
-	color: #B0B0B0;
-}
-
 .post-meta {
 	margin-top: 12px;
 	float: right;
+	color: #B0B0B0;
 }
 
 .post {
