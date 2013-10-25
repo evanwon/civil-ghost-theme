@@ -26,6 +26,7 @@
 	-ms-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
+
 .img-responsive-centered {
 	display: block;
 	height: auto;
@@ -71,11 +72,19 @@ h6,
 	font-size: 18px;
 }
 
-.post-meta {
+.index-meta {
 	margin-top: 12px;
 	float: right;
 	color: #9EABB3;
 }
+
+.post-meta {
+	margin-top: 20px;
+	margin-left: 15px;
+	float: right;
+	color: #9EABB3;
+}
+
 
 .post-meta ul {
 	list-style-type: none;
