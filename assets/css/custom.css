@@ -18,11 +18,6 @@
 
 }
 
-.post-content,
-.post-excerpt {
-	font-size: 18px;
-}
-
 /* Alternate styling for sidebar for vertical layout */
 @media (max-width: 992px){
 	.bio {
@@ -38,6 +33,11 @@
 }
 
 /* POST STYLING */
+
+.post-content,
+.post-excerpt {
+	font-size: 18px;
+}
 
 .post-meta {
 	margin-top: 12px;
