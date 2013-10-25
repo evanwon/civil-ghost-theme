@@ -1,3 +1,5 @@
+@import url("//fonts.googleapis.com/css?family=Josefin+Sans:600");
+
 /* IMAGE STYLING */
 .circular {
 	border-radius: 50%;
@@ -10,12 +12,6 @@
 	height: auto;
 	max-width: 90%;
 	margin: 0 auto;
-}
-
-/* /IMAGE STYLING */
-
-.sidebar {
-
 }
 
 /* Alternate styling for sidebar for vertical layout */
@@ -33,6 +29,23 @@
 }
 
 /* POST STYLING */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+}
 
 .post-content,
 .post-excerpt {
