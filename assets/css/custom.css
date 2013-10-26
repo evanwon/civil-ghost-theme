@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Josefin+Sans:400,600");
+@import url("http://fonts.googleapis.com/css?family=Arvo:400,400italic");
 
 a:hover {
 	text-decoration: none;
@@ -67,8 +67,9 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
   line-height: 1.1;
 }
 
