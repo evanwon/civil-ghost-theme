@@ -81,6 +81,7 @@ h6,
 
 .index-meta {
 	margin-top: 12px;
+	margin-left: 15px;
 	float: right;
 	color: #9EABB3;
 }
@@ -151,10 +152,7 @@ pre {
 /* The main wrapper for our pagination links */
 .pagination {
     position: relative;
-    width: 80%;
-    max-width: 700px;
-    margin: 4rem auto;
-    font-family: 'Open Sans', sans-serif;
+    width: 100%;
     color: #9EABB3;
     text-align: center;
 }
