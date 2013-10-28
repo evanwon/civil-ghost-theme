@@ -24,12 +24,6 @@ a:hover {
 	-o-transform: scale(1.1,1.1);
 	-ms-transform: scale(1.1,1.1);
 	transform: scale(1.1,1.1);
-
-	-webkit-transition: all 0.2s linear;
-	-moz-transition: all 0.2s linear;
-	-o-transition: all 0.2s linear;
-	-ms-transition: all 0.2s linear;
-	transition: all 0.2s linear;
 }
 
 .img-responsive-centered {
@@ -51,6 +45,11 @@ a:hover {
 
 		max-width: 500px;
 	}
+}
+
+.content {
+	/* A little extra space between content and sidebar */
+	margin-left: 20px;
 }
 
 /* POST STYLING */
