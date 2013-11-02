@@ -132,6 +132,12 @@ h6,
     box-shadow: #fff 0 0 0 5px;
 }
 
+/* Modify post appearance in single page */
+.post-template .post {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
 .post-title {
 	line-height: 1.2em;
 	margin-bottom: 30px;
@@ -185,6 +191,14 @@ pre {
     border-color: #9EABB3;
 }
 
+/* SHARING */
+
+.post-footer {
+	border-top: 1px solid #EBF2F6;
+	text-align: right; 
+	margin-top: 2rem;
+}
+
 /* FOOTER */
 
 @font-face {
@@ -219,7 +233,6 @@ pre {
 }
 .icon-twitter:before {
     content: "\e002";
-    font-size: 1.1em;
 }
 .icon-google-plus:before {
     content: "\e003";
