@@ -78,22 +78,23 @@ h6,
  	line-height: 1.6em;
 }
 
-.index-meta {
+/* meta on the main page */
+.post-meta {
 	margin-top: 12px;
 	margin-left: 15px;
 	float: right;
 	color: #9EABB3;
 }
 
-.post-meta {
+/* meta on the post page */
+.post-template .post-meta {
 	margin-top: 20px;
 	margin-left: 15px;
 	float: right;
 	color: #9EABB3;
 }
 
-
-.post-meta ul {
+.post-template .post-meta ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 5px 0 0 0;
