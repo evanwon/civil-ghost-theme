@@ -197,7 +197,13 @@ pre {
 .post-footer {
 	border-top: 1px solid #EBF2F6;
 	text-align: right; 
-	margin-top: 2rem;
+	margin-top: 6rem;
+}
+
+.icon-twitter,
+.icon-facebook,
+.icon-google-plus {
+	margin: 0 5px;
 }
 
 /* FOOTER */
