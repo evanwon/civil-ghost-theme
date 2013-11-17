@@ -115,24 +115,6 @@ h6,
     hyphens: auto;
 }
 
-/* Add a little circle in the middle of the border-bottom on our .post */
-.post:after {
-    display: block;
-    content: "";
-    width: 7px;
-    height: 7px;
-    border: #E7EEF2 1px solid;
-    position: absolute;
-    bottom: -4px;
-    left: 50%;
-    margin-left: -5px;
-    background: #fff;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    box-shadow: #fff 0 0 0 5px;
-}
-
 /* Modify post appearance in single page */
 .post-template .post {
     border-bottom: none;
