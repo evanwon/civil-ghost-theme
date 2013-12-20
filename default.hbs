@@ -40,7 +40,11 @@
                         {{/if}}
             
                         <h2 class="blog-title">{{@blog.title}}</h2>
-                        <h4 class="blog-description">{{@blog.description}}</h4>
+                        <h4 class="blog-description">
+                        	{{! To use a custom section, create the appropriate partials/custom-*.hbs, then comment first line and uncomment the second line}}
+                        	{{>about-me}}
+                        	{{!>custom-about-me}}
+                        </h4>
                     </div>
                 </header>
             </div>
@@ -61,7 +65,7 @@
         <div class="row">
             <footer class="site-footer">
                 <div class="inner">
-                     <section class="copyright">Copyright &copy; 2013 <a href="/">{{@blog.title}}</a>. All Rights Reserved.</section>
+                     <section class="copyright">Copyright &copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All Rights Reserved.</section>
                      <section class="designedby"><a href="https://github.com/evanwon/civil-ghost-theme">Civil Theme</a> designed by <a href="http://evanw.com">Evan Wondrasek</a></section>
                      <section class="poweredby">Powered by <a href="http://ghost.org">Ghost</a></section>
                 </div>
