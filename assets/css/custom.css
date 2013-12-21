@@ -172,7 +172,7 @@ pre {
 
 .older-posts:hover,
 .newer-posts:hover {
-    border-color: #9EABB3;
+    color: #3F3F3F !important; /* Todo: In the future, use custom pagination so we don't have this naming conflict with bootstrap */
 }
 
 /* SHARING */
