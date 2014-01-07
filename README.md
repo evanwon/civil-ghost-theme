@@ -26,7 +26,11 @@ Civil is a clean, simple and responsive theme for the Ghost blogging platform (h
 
 ### Desktop
 
+![](screenshots/ghost-desktop.png)
+
 ### Responsive (small screens / mobile)
+
+![](screenshots/ghost-mobile.png)
 
 ### Styling
 
