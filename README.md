@@ -10,6 +10,16 @@ Civil is a clean, simple and responsive theme for the Ghost blogging platform (h
 - Pleasant, readable typography
 - Modular: Use partial templates to customize the theme, while still allowing the base theme to be upgraded
 
+## Screenshots
+
+### Desktop
+
+![](screenshots/ghost-desktop.png)
+
+### Responsive (small screens / mobile)
+
+![](screenshots/ghost-mobile.png)
+
 ## How to Install (for Ghost 0.3)
 
 **Step 0:** Install [Ghost](https://ghost.org/).
@@ -21,16 +31,6 @@ Civil is a clean, simple and responsive theme for the Ghost blogging platform (h
 **Step 3:** Restart Ghost.
 
 **Step 4:** In the Ghost Dashboard, navigate to **Settings**, and in the **General** tab, locate **Theme** and select **civil**. Click **Save**.
-
-## Screenshots
-
-### Desktop
-
-![](screenshots/ghost-desktop.png)
-
-### Responsive (small screens / mobile)
-
-![](screenshots/ghost-mobile.png)
 
 ### Styling
 
